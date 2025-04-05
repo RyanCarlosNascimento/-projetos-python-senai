@@ -4,11 +4,11 @@
 
 #Leitura de dados
 print('Vamos calcular o volume e a área de uma esfera!')
+print()
 raio = float(input('Digite o valor do raio: '))
 
 volume = (4/3) * 3.14 * raio ** 3
 area = 4 * 3.1415 * raio ** 2
 
 #Retorno de dados
-print(f'O volume da sua esfera é: {volume} m³')
-print(f'A área da sua esfera é: {area} m²')
+print(f'O volume da sua esfera é: {volume:.2f} m³ \nA área da sua esfera é: {area:.2f} m²')
